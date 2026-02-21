@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abuelagsim mohamed omrer saeed | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Abuelagsim  mohamed</h1>
+            <ul class="nav-links">
+                <li><a href="?hero">Home</a></li><br>
+                <li><a href="#about">About</a></li><br>
+                <li><a href="#skills">Skills</a></li><br>
+                <li><a href="#projects">Projects</a></li><br>
+                <li><a href="#calculator">Calculator</a></li><br>
+                <li><a href="#contact">Contact</a></li><br>
+                <li><a href="#cv">Cv</a></li><br>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <img src="./imges/-5877279152913107089_121.jpg"width="1000"height="30" alt="Profile Picture" class="profile-img">
+            <h2>Frontend Developer</h2>
+            <p>Building responsive and user-friendly web applications.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            my is name abuelagasem mohamed Omer saeed
+            I am a Computer Science student passionate about web development and modern UI engineering.
+            My goal is to become a professional frontend engineer and contribute to impactful digital solutions.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="progress"><span style="width:100%"></span></div>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <div class="progress"><span style="width:95%"></span></div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress"><span style="width:85%"></span></div>
+            </div>
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+        </div>
+    </section>
+        <h2 class="myproo">My Projects</h2>
+    <section id="projects" class="projects">
+       
+
+    
+      <div class="project-container">
+        <div class="project-card">
+            <img src="./imges/WhatsApp Image 2026-02-19 at 05.43.34.jpeg"  alt="Project 1">
+            <h3>To-Do List App</h3>
+            <p>Built an interactive to-do application with DOM manipulation.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/09320za-sudo?tab=repositories">View on GitHub</a>
+        </div>
+        </div>
+    </section>    
+<section id="calculator" class="calculator-section">
+            <div class="container">
+                <div class="calc-card">
+                    <h2><i class="fas fa-calculator"></i> GPA Calculator</h2>
+                    <div class="input-group">
+                        <input type="number" id="mark1" placeholder="Course 1 Mark">
+                        <input type="number" id="mark2" placeholder="Course 2 Mark">
+                        <input type="number" id="mark3" placeholder="Course 3 Mark">
+                        <button id="calculateBtn" class="btn-calc" onclick="calculateGPA()">Calculate Now</button>
+                    </div>
+                    <div id="gpa-result" class="result-display"></div>
+                </div>
+            </div>
+        </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: 09320za@gmail.com</p>
+            <p>Phone: +250 795615611/p>
+        
+        </div>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+ <section id="cv" class="cv">
+        <h2>Download My CV</h2>
+        <a href="./imges/Abuelagsim_Mohamed_CV_v2-2.pdf" download class="btn-download">
+            <span>Download CV</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 abuelagsim mohamed moer saeed . All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
